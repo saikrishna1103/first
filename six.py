@@ -1,5 +1,5 @@
-year=int(input())
-if(year%4==0 and year%100!=0 or year%400==0):
+sai=int(input())
+if(sai%4==0 and sai%100!=0 or sai%400==0):
     print("yes")
 else:
     print("no")
