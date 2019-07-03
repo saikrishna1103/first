@@ -1,9 +1,10 @@
 s=int(input())
 a=int(input())
 i=int(input())
-if((s>a) and (s>i)) :
+if((s>=a) and (s>=i)) :
 	print(s)
-elif((a>i) and (a>s)) :
+elif((a>=i) and (a>=s)) :
 	print(a)
-else :
+elif((i>=a) and (i>=s)) :
 	print(i)
+
