@@ -1,5 +1,5 @@
-s=int(input())
+b=(input())
 
-a=s[::-1]
+a=b[::-1]
 
 print(a)
