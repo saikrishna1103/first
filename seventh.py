@@ -1,13 +1,15 @@
-n = int(input())
+lower,upper=map(int,input().split())
+for num in range(lower, upper + 1):
 
-sum = 0
+   order = len(str(num))
 
-temp = n
-while temp > 0:
-   digit = temp % 10
-   sum += digit ** 3
-   temp //= 10
-if n == sum:
-   print("yes")
-else:
-   print("no")
+   sum = 0
+
+   temp = num
+   while temp > 0:
+       digit = temp % 10
+       sum += digit ** order
+       temp //= 10
+
+   if num == sum:
+       print(num, )
