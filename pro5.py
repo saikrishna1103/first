@@ -5,4 +5,4 @@ for j in range(len(x)):
         break
     if(x[j]!=y[j]):
         t=t+1
-print(z)
+print(t)
